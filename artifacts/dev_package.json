@@ -1,0 +1,47 @@
+{
+	"id": "3AC2F6D3-8706-ED11-B47A-000D3AB2359F",
+	"createdAt": "2022-07-18T10:53:17.503Z",
+	"createdBy": "lloyd.trevarthen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/lloyd-neptune/ABB_SignaturePad",
+		"testServers": []
+	},
+	"name": "ABB_SignaturePad",
+	"description": null,
+	"ver": "22.7.18.1054",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "0B47F8A7-7496-43ED-969F-8AFCD32490B5",
+			"ver": "22.7.18.1253",
+			"application": "neptbb_signaturepad",
+			"title": "UTIL",
+			"description": "Signature Pad"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
