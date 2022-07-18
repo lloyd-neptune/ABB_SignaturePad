@@ -13,8 +13,15 @@
 	"enableCICD": true,
 	"apps": [
 		{
+			"id": "9D656605-A206-ED11-B47A-000D3AB2359F",
+			"ver": "22.7.18.1738",
+			"application": "neptune_deliveries_libs",
+			"title": "Neptune Deliveries Application",
+			"description": ""
+		},
+		{
 			"id": "0B47F8A7-7496-43ED-969F-8AFCD32490B5",
-			"ver": "22.7.18.163",
+			"ver": "22.7.18.1733",
 			"application": "neptbb_signaturepad",
 			"title": "UTIL",
 			"description": "Signature Pad"
