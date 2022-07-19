@@ -5,20 +5,40 @@
 	"git": {
 		"targetServers": [],
 		"remote": "https://github.com/lloyd-neptune/ABB_SignaturePad",
-		"testServers": []
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"ABB_SignaturePad\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"ABB_SignaturePad\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
 	},
 	"name": "ABB_SignaturePad",
 	"description": null,
 	"ver": "22.7.18.1055",
 	"enableCICD": true,
 	"apps": [
-		{
-			"id": "9D656605-A206-ED11-B47A-000D3AB2359F",
-			"ver": "22.7.18.1738",
-			"application": "neptune_deliveries_libs",
-			"title": "Neptune Deliveries Application",
-			"description": ""
-		},
 		{
 			"id": "0B47F8A7-7496-43ED-969F-8AFCD32490B5",
 			"ver": "22.7.18.1733",
