@@ -41,7 +41,7 @@
 	"apps": [
 		{
 			"id": "0B47F8A7-7496-43ED-969F-8AFCD32490B5",
-			"ver": "22.7.18.1733",
+			"ver": "22.7.20.953",
 			"application": "neptbb_signaturepad",
 			"title": "UTIL",
 			"description": "Signature Pad"
